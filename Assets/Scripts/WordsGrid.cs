@@ -93,9 +93,9 @@ public class WordsGrid : MonoBehaviour
                     var selectedLetterData = alphabetData.AlphabetHighlighted.Find(data => data.letter == squareLetter);
                     var correctLetterData = alphabetData.AlphabetWrong.Find(data => data.letter == squareLetter);
 
-                    if(normalLetterData.image == null || selectedLetterData.image == null)
+                    if(normalLetterData?.image == null || selectedLetterData?.image == null)
                     {
-                        Debug.LogError("tenés que escribir una letra mayúscula rey, no numeritos. apretá 'rellenar tablero' para completarlo automaticamente y deja de embromarte haceme el favor. falta esta: " + squareLetter);
+                        //Debug.LogError("tenés que escribir una letra mayúscula rey, no numeritos. apretá 'rellenar tablero' para completarlo automaticamente y deja de embromarte haceme el favor. falta esta: " + squareLetter);
 
                         #if UNITY_EDITOR
 
