@@ -108,7 +108,9 @@ public class WordCheker : MonoBehaviour
         {
             if(_word == searchingWord.Word)
             {
+                GameEvents.CorrectWordMethod(_word, _correctSquareList);
                 _word = string.Empty;
+                _correctSquareList.Clear();
                 return;
             }
         }
