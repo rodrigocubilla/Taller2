@@ -70,8 +70,8 @@ public class WordsGrid : MonoBehaviour
         squareSize.x = squareRect.width * squareTransform.localScale.x;
         squareSize.y = squareRect.height * squareTransform.localScale.y;
 
-        var midWidthPosition = ((currentGameData.selectedBoardData.Columns -1 * squareSize.x) / 2) * 0.01f;
-        var midWidthHeight = ((currentGameData.selectedBoardData.Rows -1 * squareSize.y) / 2) * 0.01f;
+        var midWidthPosition = (((currentGameData.selectedBoardData.Columns -1) * squareSize.x) / 2) * 0.01f;
+        var midWidthHeight = (((currentGameData.selectedBoardData.Rows -1) * squareSize.y) / 2) * 0.01f;
 
         startPosition.x = (midWidthPosition !=0) ? midWidthPosition * -1 : midWidthPosition;
         startPosition.y += midWidthHeight;
