@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffdce044d32f46e4195e739482b79e5e, type: 3}
+  m_Name: Deporte4
+  m_EditorClassIdentifier: 
+  timeInSeconds: 0
+  Columns: 9
+  Rows: 9
+  Board:
+  - Size: 9
+    Row:
+    - L
+    - E
+    - B
+    - R
+    - O
+    - N
+    - X
+    - O
+    - S
+  - Size: 9
+    Row:
+    - I
+    - P
+    - D
+    - L
+    - I
+    - M
+    - D
+    - E
+    - P
+  - Size: 9
+    Row:
+    - M
+    - L
+    - P
+    - O
+    - L
+    - E
+    - B
+    - X
+    - L
+  - Size: 9
+    Row:
+    - S
+    - E
+    - R
+    - E
+    - N
+    - A
+    - Q
+    - E
+    - E
+  - Size: 9
+    Row:
+    - V
+    - H
+    - I
+    - Z
+    - R
+    - O
+    - J
+    - Y
+    - H
+  - Size: 9
+    Row:
+    - R
+    - P
+    - V
+    - D
+    - D
+    - K
+    - V
+    - P
+    - P
+  - Size: 9
+    Row:
+    - H
+    - B
+    - Y
+    - U
+    - Q
+    - J
+    - R
+    - A
+    - K
+  - Size: 9
+    Row:
+    - U
+    - O
+    - R
+    - U
+    - T
+    - H
+    - X
+    - C
+    - N
+  - Size: 9
+    Row:
+    - A
+    - A
+    - Y
+    - Z
+    - L
+    - I
+    - I
+    - D
+    - G
+  SearchWords:
+  - Word: LEBRON
+  - Word: SERENA
+  - Word: PHELPS
+  - Word: DONOVAN
+  - Word: BARDY
+  - Word: RUTH

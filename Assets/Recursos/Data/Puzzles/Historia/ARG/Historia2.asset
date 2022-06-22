@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffdce044d32f46e4195e739482b79e5e, type: 3}
+  m_Name: Historia2
+  m_EditorClassIdentifier: 
+  timeInSeconds: 0
+  Columns: 9
+  Rows: 9
+  Board:
+  - Size: 9
+    Row:
+    - Q
+    - W
+    - A
+    - L
+    - S
+    - H
+    - T
+    - C
+    - N
+  - Size: 9
+    Row:
+    - R
+    - S
+    - R
+    - Z
+    - M
+    - Y
+    - O
+    - H
+    - I
+  - Size: 9
+    Row:
+    - A
+    - E
+    - N
+    - Y
+    - B
+    - R
+    - N
+    - W
+    - T
+  - Size: 9
+    Row:
+    - S
+    - L
+    - I
+    - P
+    - T
+    - R
+    - I
+    - N
+    - R
+  - Size: 9
+    Row:
+    - C
+    - Z
+    - B
+    - A
+    - W
+    - V
+    - U
+    - L
+    - A
+  - Size: 9
+    Row:
+    - H
+    - U
+    - Z
+    - E
+    - N
+    - K
+    - Q
+    - W
+    - M
+  - Size: 9
+    Row:
+    - X
+    - A
+    - Z
+    - U
+    - R
+    - D
+    - U
+    - Y
+    - N
+  - Size: 9
+    Row:
+    - R
+    - K
+    - K
+    - S
+    - O
+    - D
+    - P
+    - A
+    - A
+  - Size: 9
+    Row:
+    - Y
+    - N
+    - D
+    - N
+    - T
+    - B
+    - I
+    - W
+    - S
+  SearchWords:
+  - Word: WALSH
+  - Word: QUINO
+  - Word: AZURDUY
+  - Word: ALBERDI
+  - Word: CORTAZAR
+  - Word: SANMARTIN

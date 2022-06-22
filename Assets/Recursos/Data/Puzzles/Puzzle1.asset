@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffdce044d32f46e4195e739482b79e5e, type: 3}
+  m_Name: Puzzle1
+  m_EditorClassIdentifier: 
+  timeInSeconds: 0
+  Columns: 9
+  Rows: 9
+  Board:
+  - Size: 9
+    Row:
+    - I
+    - A
+    - N
+    - O
+    - D
+    - A
+    - R
+    - A
+    - M
+  - Size: 9
+    Row:
+    - F
+    - N
+    - T
+    - E
+    - B
+    - K
+    - J
+    - W
+    - I
+  - Size: 9
+    Row:
+    - A
+    - M
+    - I
+    - A
+    - B
+    - Z
+    - K
+    - L
+    - S
+  - Size: 9
+    Row:
+    - N
+    - E
+    - K
+    - T
+    - O
+    - P
+    - I
+    - F
+    - N
+  - Size: 9
+    Row:
+    - G
+    - S
+    - D
+    - J
+    - A
+    - B
+    - T
+    - C
+    - Y
+  - Size: 9
+    Row:
+    - I
+    - S
+    - P
+    - U
+    - O
+    - B
+    - P
+    - N
+    - A
+  - Size: 9
+    Row:
+    - O
+    - I
+    - L
+    - N
+    - G
+    - X
+    - A
+    - C
+    - M
+  - Size: 9
+    Row:
+    - E
+    - G
+    - I
+    - L
+    - X
+    - M
+    - V
+    - S
+    - D
+  - Size: 9
+    Row:
+    - J
+    - G
+    - A
+    - U
+    - D
+    - I
+    - O
+    - T
+    - U
+  SearchWords:
+  - Word: FANGIO
+  - Word: MESSI
+  - Word: GAUDIO
+  - Word: SABATINI
+  - Word: MARADONA
+  - Word: GINOBILI

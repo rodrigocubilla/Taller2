@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffdce044d32f46e4195e739482b79e5e, type: 3}
+  m_Name: Deporte2
+  m_EditorClassIdentifier: 
+  timeInSeconds: 0
+  Columns: 9
+  Rows: 9
+  Board:
+  - Size: 9
+    Row:
+    - O
+    - Z
+    - Z
+    - A
+    - P
+    - M
+    - A
+    - C
+    - M
+  - Size: 9
+    Row:
+    - T
+    - I
+    - A
+    - Y
+    - M
+    - A
+    - R
+    - A
+    - A
+  - Size: 9
+    Row:
+    - X
+    - E
+    - A
+    - D
+    - H
+    - Y
+    - I
+    - S
+    - R
+  - Size: 9
+    Row:
+    - U
+    - A
+    - H
+    - V
+    - A
+    - D
+    - Q
+    - Q
+    - T
+  - Size: 9
+    Row:
+    - X
+    - F
+    - Y
+    - C
+    - A
+    - J
+    - Y
+    - X
+    - I
+  - Size: 9
+    Row:
+    - K
+    - O
+    - Y
+    - N
+    - U
+    - L
+    - W
+    - L
+    - N
+  - Size: 9
+    Row:
+    - F
+    - Y
+    - A
+    - X
+    - G
+    - R
+    - Z
+    - D
+    - E
+  - Size: 9
+    Row:
+    - K
+    - H
+    - M
+    - Z
+    - G
+    - B
+    - U
+    - J
+    - Z
+  - Size: 9
+    Row:
+    - P
+    - A
+    - R
+    - E
+    - T
+    - T
+    - O
+    - C
+    - B
+  SearchWords:
+  - Word: AYMAR
+  - Word: CURUCHET
+  - Word: PARETTO
+  - Word: CAMPAZZO
+  - Word: MARTINEZ
+  - Word: MAIDANA
